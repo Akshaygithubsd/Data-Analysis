@@ -1,0 +1,215 @@
+%-------------------------
+% Resume in Latex
+% Author : Gabriel Sison
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{0pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\Huge\scshape VIKASH KUMAR} 
+        % SUBHEADING
+        \\ Bangalore, India\\
+        \small
+        % EMAIL
+        \href{mailto:vikashsinghkaundilya@gmail.com}{\raisebox{-0.2\height}\faPhone\  \underline{+91-6202371814}} ~ 
+        % EMAIL
+        \href{mailto:vikashsinghkaundilya@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vikashsinghkaundilya@gmail.com}} ~ 
+        % LINKEDIN
+        \href{https://www.linkedin.com/in/vikash-kumar-b4272629b/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedIn}}  ~
+        % GITHUB
+        \href{https://github.com/Akshaygithubsd}{\raisebox{-0.2\height}\faGithub\ \underline{github}} ~
+        % GITHUB
+        \href{https://www.geeksforgeeks.org/user/akshaybharadwaj770/}{\raisebox{-0.2\height}\ \underline{GfG}}
+    \end{center}`
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    % MAIN INFORMATION
+    \resumeSubheading
+    {JAIN UNIVERSITY}{2023-2026}
+    {BACHELOR OF COMPUTER APPLICATION(ELECTIVES) | C.G.P.A : 8.61}{Bangalore}
+    \resumeSubheading
+    {K.R.M HIGH SCHOOL NETAUL}{2022-2023}
+    {Intermediate PCM | Percentage: 65.20}{Patna}
+  \resumeSubHeadingListEnd
+
+  
+   
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Experience  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{COURSEWORK}
+            \begin{multicols}{4}
+\begin{itemize}
+    \item {Data Structure \& Algorithm}
+    \item {OOPS Concept}
+    \item {Operating System}
+    \item {Computer Organisation}
+\end{itemize}
+
+\columnbreak
+
+\begin{itemize}
+    \item {Database Management}
+    \item {Computer Networks}
+    \item {C++}
+    \item {PYTHON}
+    
+\end{itemize}
+
+\end{multicols}
+
+
+       
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{PERSONAL PROJECT} 
+    \resumeSubHeadingListStart
+
+        % Project 1
+        \resumeProjectHeading
+        {\underline{ Movie Recommendation System} -\href{https://github.com/Akshaygithubsd/-Diabetic-Retinopathy-Detection}{\raisebox{-0.2\height}\faLink\ \underline{Tech Stack}: Python, Pandas, Scikit-learn, Streamlit}}
+        % Date
+        {Jul, 2024}
+        \resumeItemListStart
+            \resumeItem{Built a content-based and collaborative filtering system using \textbf{machine learning techniques} to recommend movies based on user preferences.}
+            \resumeItem{Integrated \textbf{TMDb API} to fetch real-time movie metadata including posters, genres, and descriptions.}
+            \resumeItem{Designed an interactive web interface using \textbf{Streamlit} for a seamless user experience..}
+            
+        \resumeItemListEnd
+
+        % Project 1
+        \resumeProjectHeading
+        {\underline{Library Management System} -\href{https://github.com/Akshaygithubsd/Weather-Application}{\raisebox{-0.2\height}\faLink\ \underline{Tech Stack}:Python, Flask, SQLite, Bootstrap}}
+        % Date
+        {Dec, 2023}
+        \resumeItemListStart
+            \resumeItem{Designed and developed a full-stack \textbf{web-based library system} to manage book inventory, user registration, and transaction records.}
+            \resumeItem{Implemented role-based access control for \textbf{admin and users} to ensure secure operations such as issuing and returning books.}
+            \resumeItem{Integrated a responsive UI using \textbf{HTML, CSS, and Bootstrap} to enhance usability and user experience.}
+        \resumeItemListEnd
+
+        
+
+        % Project 1
+        \resumeProjectHeading
+        {\underline{Face Recognition Attendance System} -\href{https://github.com/Akshaygithubsd/JSS_NAVIGATION_FINAL}{\raisebox{-0.2\height}\faLink\ \underline{Tech Stack}: Python, OpenCV}}
+        % Date
+        {May, 2024}
+        \resumeItemListStart
+            \resumeItem{Developed an automated \textbf{face recognition-based attendance system} using OpenCV and the \texttt{face\_recognition} library.}
+            \resumeItem{Integrated a user-friendly GUI using \textbf{Tkinter} and stored attendance logs securely in \textbf{SQLite}.}
+            \resumeItem{Enhanced accuracy with real-time image processing and facial encoding techniques.}
+        \resumeItemListEnd
+    
+       
+ 
+       
+    \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{TECHNICAL SKILLS}
+
+    \vspace{-7pt}
+    \begin{itemize}
+    [leftmargin=0.15in, label={}]\small{\item{
+        % LANGUAGES
+        \textbf{\large Languages}{\large :JAVA, Python, C , C++, SQL, HTML} \\
+        % TECHNOLOGIES
+        \textbf{\large Technologies/Frameworks}{\large : HTML, SQL, CSS, GitHub, Git} \\}}
+    \end{itemize}
+
+
+
+\section{EXTRACURRICULAR} 
+    \resumeSubHeadingListStart
+     
+        \resumeItemListStart
+            \resumeItem{{\large Solved 50+ problems across all coding Platform.}}
+        \resumeItemListEnd
+  
+    
+\end{document}
+        
+    \resumeSubHeadingListEnd
+    
+\end{document}

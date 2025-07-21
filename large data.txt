@@ -1,0 +1,5 @@
+Artificial Intelligence (AI) is a fast progressing domain in the tech industry. It provides technology the ability to process real world objects and hence gives it the possibility to interact with them. Most common type of AI apps uses natural language processing.
+
+AI objects uses large dictionaries which specifies how to react to various actions. The lasrge amount of dictionary gives it more intelligence in terms of technology. They sometimes also uses various decision taking algorithms which too makes a good usage of AI.
+
+We are also working on various apps related to AI that can make interaction with AI of non tech common person easier.

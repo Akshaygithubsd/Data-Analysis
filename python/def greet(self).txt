@@ -1,0 +1,2 @@
+def greet(self):
+	#here self means the inbuilt value of that particular class is going to be taken
